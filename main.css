@@ -6,10 +6,20 @@ body {
 h1{
     font-size: 25px;
 }
+
+a:hover{
+    color: orangered;
+}
+
+
 .frame{
     border: solid 1px black;
     margin: 10px;
     padding: 10px;
     min-width: 500px;
     min-height: 250px;
+}
+
+.prettyprint{
+    margin-left: 15px;
 }
