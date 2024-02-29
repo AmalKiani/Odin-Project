@@ -3,12 +3,28 @@ body {
     font-weight: bold;
 }
 
+ul{
+    list-style-type:disc;
+    margin: 5px 20px;
+}
+
+ol{
+    list-style-type: decimal;
+    margin: 5px 20px;
+}
+
+mark{
+    background-color: #91f291;
+    margin-top: 10px;
+    
+}
+
 .prettyprint{
-    margin-left: 15px;
+    margin: 15px 15px 15px 30px;
 }
 
 .title{
-    background-color: orange;
+    background-color: #91f291;
     color: #000;    font-weight: bold;
     padding: 10px 15px;
     margin-bottom: 40px;
@@ -17,26 +33,26 @@ body {
     border-bottom: solid 3px black;
 }
 
+.subtitle {
+    background-color: #91f291;
+    border-radius: 12px;
+    color: #000;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-align: center;
+    transition: 200ms;
+    width: auto;
+    box-sizing: border-box;
+    border: 0;
+    font-size: 16px;
+    display:inline-block;
+}
+
+
 .frame{
     border: solid 1px black;
     margin: 10px;
     padding: 10px;
     min-width: 500px;
 }
-
-.buttonMain {
-  background-color: orange;
-  border-radius: 12px;
-  color: #000;
-  cursor: pointer;
-  font-weight: bold;
-  padding: 10px 15px;
-  text-align: center;
-  transition: 200ms;
-  width: auto;
-  box-sizing: border-box;
-  border: 0;
-  font-size: 16px;
-  display:inline-block;
-}
-

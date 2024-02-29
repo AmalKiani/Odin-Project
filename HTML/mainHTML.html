@@ -15,15 +15,122 @@
 
     <h1 class="title">HTML</h1>
     <div class="frame">
-
-        <a onclick="displayToggle()" class="buttonMain">Click Me</a>
-        <div class="frame" id="displayToggleID">
-            <pre class="prettyprint linenums" >
-                <p>Hello</p>
-                <p>There</p>
-            </pre>
+        <!-- ------------------------------------------------- -->
+        <!-- ------------------------------------------------- -->
+        <!-- ------------------------------------------------- -->
+        <div>
+            <a class="subtitle">Elements and Tags</a>
+            <div class="frame">
+                <p>How to create text on HTML.</p>
+                <ul>
+                    <li><mark>&lt;p&gt;</mark> is the opening tag.</li>
+                    <li><mark>"Hello World!"</mark> represents content wrapped within the opening and closing tags.</li>
+                    <li><mark>&lt;/p&gt;</mark> is the closing tag.</li>
+                </li>
+                <p>&lt;p&gt;Hello World! &lt;/p&gt;</p>
+                <pre class="prettyprint linenums" >
+                    <p>Hello World!</p>
+                </pre>
+                
+                <p>Some HTML elements do not have a closing tag.</p>
+                <br>
+                <p>These elements just have a single tag like <mark>&lt;br&gt;</mark> or <mark>&lt;img&gt;</mark></p>
+            </div>
         </div>
-
+        <!-- ------------------------------------------------- -->
+        <!-- ------------------------------------------------- -->
+        <!-- ------------------------------------------------- -->          
+        <div>
+            <a class="subtitle">Lists</a>
+            <div class="frame">
+                <p>Assignment</p>
+                <br>
+                <p>1. Create An unordered shipping list of your favorite foods</p>
+                <pre class="prettyprint linenums" >
+                    <ul>
+                        <li>Pizza</li>
+                        <li>Chicken</li>
+                        <li>Pho</li>
+                        <li>Shawarma</li>
+                    </ul>
+                </pre>
+                <br>
+                <p>2. An ordered list of todo’s you need to get done today</p>
+                <pre class="prettyprint linenums" >
+                    <ol>
+                        <li>Shower</li>
+                        <li>Go to work</li>
+                        <li>Ship items</li>
+                        <li>Study</li>
+                    </ol>
+                </pre>
+                <br>
+                <p>3. An unordered list of places you’d like to visit someday</p>
+                <pre class="prettyprint linenums" >
+                    <ul>
+                        <li>Chicago</li>
+                        <li>Japan</li>
+                        <li>Iceland</li>
+                        <li>Alaska</li>
+                    </ul>
+                </pre>
+                <br>
+                <p>4. An ordered list of your all time top 5 favorite video games or movies</p>
+                <pre class="prettyprint linenums" >
+                    <ol>
+                        <li>Cave Story</li>
+                        <li>Halo 3</li>
+                        <li>Overwatch</li>
+                        <li>Skyrim</li>
+                        <li>Binding of Isaac</li>
+                    </ol>
+                </pre>
+                <br>
+            </div>
+        </div>
+        <!-- ------------------------------------------------- -->
+        <!-- ------------------------------------------------- -->
+        <!-- ------------------------------------------------- -->
+        <div>
+            <a class="subtitle">Links and Images</a>
+            <div class="frame">
+                <p>Create a link with an <mark>&lt;a&gt;</mark> tag</p>
+                <p>Use the href attribute to add a destination where we want our linke to go.
+                    <br>
+                    <br>
+                    <mark>&lt;a href="www.google.ca"&gt;Google&lt;/a&gt;</mark>
+                </p>
+                <br>    
+                <p>While href specifices the desination link, targer specifies where the linked resource
+                    will be opened. If it is not present, then, by default, it will take on the _self value
+                     which opens the link in the current tab. To open the link in a new tab or window 
+                     (depends on browser settings) you can set it to _blank as follows:
+                     <br>
+                     <br>
+                     <mark>&lt;a href="www.google.ca" target="_blank" rel="noopener noreferrer"&gt;Google&lt;/a&gt;</mark>
+                </p>
+                <br>
+                <p>Display an image in HTML using the <mark>&lt;img&gt;</mark> tag.</p>
+                <p>To link an image use the src attribute
+                    <br>
+                    <br>
+                    <mark>&lt;img src="https://www.theodinproject.com/mstile-310x310.png"&gt;</mark>
+                </p>
+                <pre class="prettyprint linenums" >
+                    <img src="https://www.theodinproject.com/mstile-310x310.png">
+                </pre>
+                <p>Whille no required, specifying the height and width attrtributes in image tags helps the browser layout the page</p>
+                <p>Use the Width and Height attributes
+                    <br>
+                    <br>
+                    <mark>&lt;img src="https://www.theodinproject.com/mstile-310x310.png" height="310" width="310"&gt;</mark>
+                </p>
+                <pre class="prettyprint linenums" >
+                    <img src="https://www.theodinproject.com/mstile-310x310.png" height="310" width="310">
+                </pre>
+                <p>However it is recommended you leave all styling for CSS so there is no confusion</p>
+            </div>
+        </div>
     </div>
     
 
